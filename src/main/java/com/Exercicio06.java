@@ -15,7 +15,7 @@ public class Exercicio06 {
         System.out.println("qual o preco da venda" );
          double venda = scanner.nextDouble();
 
-        System.out.println("O lucro obtido dela é " + mercadoria + (venda-compra) );
-        
+        System.out.println("O lucro obtido de " + mercadoria + " foi de: " + (venda-compra));
+
     }
 }
