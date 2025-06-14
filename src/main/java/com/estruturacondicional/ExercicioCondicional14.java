@@ -11,6 +11,13 @@ public class ExercicioCondicional14 {
         System.out.println("digite o segundo numero: ");
         double num2 = scanner.nextDouble();
 
+            if ( num1 == 0 || num2 == 0 ){
+            System.out.println("Z");
+        } else if ((num1 > 0 && num2 > 0) || (num1 < 0 && num2 < 0)){
 
+                System.out.println("M");
+            } else {
+            System.out.println("O");
+        }
     }
 }
