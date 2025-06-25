@@ -27,8 +27,8 @@ public class Atividade04 {
             System.out.println("Digite 3 para sair");
             sair = scanner.nextInt();
         }
-        System.out.println("A faixa etaria de jovem " + contadorjovem);
-        System.out.println("A faixa etaria de meia idade " + contadormeiaidade);
-        System.out.println("A faixa etaria de idoso " + contadoridoso);
+        System.out.println ("na sua empresa tem " + contadorjovem + " jovem");
+        System.out.println("na sua empresa tem " + contadormeiaidade + " Meia Idade");
+        System.out.println("na sua empresa tem " + contadoridoso + " Idoso");
     }
 }
