@@ -10,13 +10,13 @@ public class Atividade06 {
     int razao = 0;
     int somaRazao = 0;
 
-   System.out.println("Informe o numero:");
+   System.out.println("Informe os numeros:");
    numeros = scanner.nextDouble();
 
    System.out.print("Informe a razão da progressão aritmética: ");
    razao = scanner.nextInt();
 
-    while (contador < 10){
+    while (contador <= 10){
         somaRazao = somaRazao + razao;
         System.out.println(numeros + somaRazao);
         contador++;
