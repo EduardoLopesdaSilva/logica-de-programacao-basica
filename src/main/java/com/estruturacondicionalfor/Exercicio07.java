@@ -9,13 +9,11 @@ public class Exercicio07 {
         System.out.print("Digite um número inteiro positivo para calcular o fatorial: ");
         int numero = scanner.nextInt();
 
-
-        else                           {
-            long fatorial = 1;
+        int somaFatorial = 1;
             for (int i = 1; i <= numero; i++) {
-                fatorial *= i;
+                somaFatorial = somaFatorial * i;
             }
-            System.out.println("O fatorial de " + numero + " é: " + fatorial);
+            System.out.println("O fatorial de " + numero + " é: " + somaFatorial);
         }
     }
-}
+
